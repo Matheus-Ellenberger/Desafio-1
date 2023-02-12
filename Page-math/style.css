@@ -121,7 +121,6 @@
 }
 
 
-
 /* cursos */
 
 #cursos {
@@ -314,8 +313,6 @@
     padding-top: 50px;
 }
 
-
-
 .title--blog {
     color: #009688;
     font-size: 37px;
@@ -365,16 +362,12 @@
     color: #FF4081;
 }
 
-
-
 .img--posts {
     margin-bottom: 10px;
     width:320px;
     height: 193px;
     background-color:#C4C4C4 ;
 }
-
-
 
 
 /* css do footer principal */
