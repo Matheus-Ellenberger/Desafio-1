@@ -4,13 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu';
 }
 #head {
     width: 100%;
     height: 117px;
     background-color: #2E948A;
     padding: 0px 80px;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25)
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    position: fixed;
+
 }
 .container--head {
     width: 100%;
@@ -47,13 +50,91 @@
     line-height: 23px;
 }
 
+/* banner */
+
+#pagina--principal {
+    width: 100%;
+}
+
+#banner--principal {
+    width: 100%;
+    height: calc(100vh + 117px);
+    display: flex;
+}
+.container--banner {
+    width: 1028px;
+    height: 521px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.text--banner {
+    justify-content: flex-start;
+    width: 488px;
+    height: 386px;
+    margin-top: -135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.title--banner {
+    width: 488px;
+    height: 216px;
+    color:#FF4081 ;
+    font-size: 60px;
+    line-height: 69px;
+    font-weight: 700;
+}
+
+.subTitle--banner {
+    width: 350px;
+    height: 62px;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555;
+    text-align: left;
+}
+
+.btn--banner {
+    width: 268px;
+    height: 51px;
+    border-radius: 62px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    background-color: transparent;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+}
+
+
+.img--banner {
+    width: 501px;
+    height: 511px;
+}
+
+
+
+/* cursos */
+
+#cursos {
+    width: 100%;
+    height: 730px;
+    background-color: #f6f6f6;
+}
 
 
 
 
 
 
-/* seu codigo aqui no meio */
 
 
 
