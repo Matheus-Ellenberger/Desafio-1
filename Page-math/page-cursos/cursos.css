@@ -48,6 +48,7 @@
     line-height: 23px;
 }
 
+/* page cursos */
 
 #page--cursos {
     width: 100%;
@@ -103,8 +104,6 @@
     color: #fff;
 }
 
-
-
 .title {
     margin-bottom: 110px;
 }
@@ -119,15 +118,9 @@
     font-size: 20px;
 }
 
-
-
-
-
 .img--curso {
     width: 380px;
 }
-
-
 
 .curso1 {
     width: 100%;
@@ -138,7 +131,6 @@
     margin: 150px 0px;
     padding-bottom: 100px;
 }
-
 
 .curso2 {
     width: 100%;
