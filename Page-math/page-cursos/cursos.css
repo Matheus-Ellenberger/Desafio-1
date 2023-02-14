@@ -145,7 +145,8 @@
     /* Modal HTML e CSS */
 
 
-  .modal {
+.modal {
+    height: calc(100vh + 117px);
     visibility: hidden;
     opacity: 0;
     position: absolute;
@@ -158,12 +159,12 @@
     justify-content: center;
     background: rgba(77, 77, 77, 0.7);
     transition: all 0.4s;
-  }
+}
    
-  .modal:target {
+.modal:target {
     visibility: visible;
     opacity: 1;
-  }
+}
 
 
 .img--curso img{
@@ -199,7 +200,7 @@
     font-size: 18px;
 }
 
-  .container--modal {
+.container--modal {
     display: flex;
     border-radius: 10px;
     position: relative;
@@ -207,14 +208,14 @@
     max-width: 90%;
     background-color: #fff;
     padding: 2em 4em;
-  }
+}
    
-  .footer {
+.footer {
     text-align: right;
     margin-top: 50px;
-  }
+}
    
-  .close {
+.close {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -227,9 +228,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
    
-  .btn-close {
+.btn-close {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -242,7 +243,7 @@
     border-radius: 50%;
     text-align: center;
     font-size: 15px;
-  }
+}
 
 
 /* rodape */

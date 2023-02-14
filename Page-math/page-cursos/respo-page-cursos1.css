@@ -48,15 +48,154 @@
 
     /* conteudo */
 
+    #page--cursos {
+        display: flex;
+        align-items: center;
+        height: 2500px;
+        display: flex;
+        padding: 30px 80px 0px 80px ;
+    }
 
+    .container {
+        width: 100%;
+        max-width: 768px;
+        height: 2500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 
+    .title--cursos {
+        font-size: 30px;
+    }
 
+    .text--curso {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .text--curso p{
+        text-align: justify;
+        font-size: 14px;
+        width:100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
 
+    .text--curso a {
+        width: 180px;
+        height: 60px;
+        margin-top: 40px;
+    }
 
+    .text--curso h4 {
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
 
+    #curso2 {
+        height: 300px;
+        margin-top: 0;
+        padding: 0;
+    }
 
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 200px;
+    }
 
+    #curso {
+        padding: 0px 0px 0px;
+        border-bottom: 0;
+    }
+
+    #curso1{
+        padding: 0;
+        border-bottom: 0;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    #curso,
+    #curso1,
+    #curso2 {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img--curso {
+        padding: 0;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+
+    /* modal */
+
+    .modal {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container--modal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img--curso {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img--curso img {
+        width: 150px;
+    }
+
+    .text--modal h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text--modal p {
+        font-size: 14px;
+    }
+
+    .text--modal {
+        text-align: left;
+    }
+
+    .text--modal a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .text--modal button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img3 {
+        height: 150px;
+    }
 
     /* footer */
 
@@ -87,13 +226,15 @@
     
 }
 
-
 @media (min-width: 426px) and (max-width:768px) {
 
+    .img--curso {
+        width: 270px;
+    }
+    .text--curso p {
+        margin-bottom: 0px;
+    }
 }
-
-
-
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
@@ -119,14 +260,40 @@
 
     /* conteudo */
 
+    .img--curso {
+        width: 300px;
+    }
 
+    .text--curso h4 {
+        font-size: 28px;
+    }
 
+    .text--curso p {
+        font-size: 16px;
+    }
 
+    /* modal */
 
+    .img--curso img{
+        width:300px ;
+    
+        padding-right: 15px;
+    }
 
+    .text--modal h2{
+        font-size: 24px;
+    }
 
+    .text--modal p{
+        
+        font-size: 14px;
+    }
 
-
+    .text--modal a{
+        
+       text-decoration: none;
+       color: #000;
+    }
 
 
     /* footer */
@@ -140,5 +307,12 @@
 
     .btn--link a {
         font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .text--modal a {
+        text-decoration: none;
+        color: #000;
     }
 }
