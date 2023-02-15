@@ -1,0 +1,144 @@
+@media (min-width: 320px) and (max-width:768px) {
+    
+    /* header */
+    
+    #head {
+        width: 100%;
+        padding: 0px 0px;
+        max-width: 768px;
+        height: 100px;
+        position:static;
+        z-index: 0;
+        margin: auto;
+        background-color: #2E948A;
+    }
+    .container--head {
+        width: 100%;
+        max-width: 768px;
+        height: 100px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu {
+        width: 209px;
+        height: 33px;
+    }
+
+    .menu--list {
+        width: 209px;
+    }
+
+    .menu--links {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 164px;
+        height: 60px;
+    }
+
+    /* conteudo */
+
+
+
+
+
+
+
+
+
+
+
+    /* footer */
+
+    #rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 307px;
+        padding: 20px 80px;
+    }
+
+    .container--rodape {
+        height: 307px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .btn--link button {
+        width: 189px;
+        height: 40px;
+    }
+
+    .btn--link a {
+        font-size: 16px;
+    }
+    
+}
+
+
+@media (min-width: 426px) and (max-width:768px) {
+
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* header */
+    #head {
+        width: 100%;
+        padding: 0px 80px;
+        max-width: 1024px;
+        height: 100px;
+        position:static;
+        z-index: 0;
+        margin: auto;
+        background-color: #2E948A;
+    }
+    .container--head {
+        width: 100%;
+        max-width: 1024px;
+        height: 100px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    /* conteudo */
+
+
+
+
+
+
+
+
+
+
+
+    /* footer */
+    .img {
+        width: 300px;
+    }
+
+    .btn--link button {
+        width: 200px;
+    }
+
+    .btn--link a {
+        font-size: 18px;
+    }
+}
