@@ -52,19 +52,73 @@
 
 
 
+/* Aqui começa da página contatos */
+
+#page-contato {
+    width: 100%;
+    height: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+.container {
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
+#button-submit {
+    width: 108px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #FF4081;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
 
-/* seu codigo aqui no meio */
+.input {
+    width: 493px;
+    height: 32px;
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    outline: 0;
+}
 
+#msg {
+    width: 493px;
+    height: 193px;
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    outline: 0 ;
+}
 
+#txt-contato {
+    width: 154px;
+    height: 46px;
+    font-size: 40px;
+    color: #FF4081;
+}
 
+#img-contato {
+    width: 444px;
+    height: 444px;
+}
 
-
-
-
-
+/* Aqui termina da Página Contatos*/
 
 
 
