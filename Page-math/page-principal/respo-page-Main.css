@@ -1,0 +1,585 @@
+/* responsividade */
+
+@media (min-width: 320px) and (max-width:768px) {
+
+    #head {
+        width: 100%;
+        padding: 0px 0px;
+        max-width: 768px;
+        height: 100px;
+        position:static;
+        z-index: 0;
+        margin: auto;
+        background-color: #2E948A;
+    }
+    .container--head {
+        width: 100%;
+        max-width: 768px;
+        height: 100px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu {
+        width: 209px;
+        height: 33px;
+    }
+
+    .menu--list {
+        width: 209px;
+    }
+
+    .menu--links {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 164px;
+        height: 60px;
+    }
+
+    /* banner */
+
+    #banner--principal {
+        height:calc(100vh - 100px);
+        text-align: center;
+        position: relative;
+    }
+
+    .container--banner {
+        width: 100%;
+        max-width: 768px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .text--banner {
+        width: 80%;
+        height: 180px;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .title--banner {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 100px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .subTitle--banner {
+
+        width: 80%;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn--banner {
+        width: 134px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 0;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .img--banner {
+        position: absolute;
+        top: 280px;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 200px;
+    }
+
+    /* cursos */
+
+    #cursos {
+        height: 1400px;
+        width: 100%;
+    }
+
+    .container--cursos {
+        width: 100%;
+        max-width: 425px;
+        height:100% ;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+
+    .title--cursos {
+        font-size: 20px;
+    }
+
+    .curso1, 
+    .curso2,
+    .curso3 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .subTitle--cursos {
+        font-size: 14px;
+    }
+
+    .btn--cursos {
+        width: 133px;
+        font-size: 18px;
+    }
+
+    .img--curso {
+        width: 164px;
+        height: 160px;
+    }
+
+    /* depoimentos */
+
+    #depoimentos {
+        width: 100%;
+        height: 1150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 80px;
+    }
+
+    .container--depoimentos {
+        width: 100%;
+        max-width: 425px;
+        height: 1150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content:space-around ;
+    }
+
+    .title--depoimentos {
+        width: 100%;
+        max-width: 425px;
+        margin-top: 30px;
+        font-size: 23px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .depoimento1, .depoimento2{
+        position: static;
+        width: 100%;
+        max-width: 425px;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .depoimento1{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .depoimento2 {
+        margin-top: -150px;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .comentario {
+        width: 100%;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        margin: 20px 0px;
+    }
+   
+    .text--depoimentos {
+        font-size: 14px;
+        margin: 20px 0px;
+    }
+
+    .text--pessoa {
+        width: 100%;
+        max-width: 425px;
+    }
+
+    .pessoa {
+        width: 50px;
+        margin: 0;
+    }
+
+    /* blog */
+
+    #blog {
+        width: 100%;
+        display: flex;
+        height: 1150px;
+    }
+
+    .container--blog {
+        width: 100%;
+        max-width: 768px;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .some--posts {
+        max-width: 768px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .title--blog {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        display: flex;
+        text-align: center;
+        
+    }
+
+    
+
+    .posts {
+        display: flex;
+        width: 100%;
+        height: 250px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name--posts,
+    .text--posts {
+        text-align: justify;
+        width: 90%;
+        height: 300px;
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .name--posts {
+        height: 50px;
+    }
+
+
+    .img--posts {
+        width: 90%;
+        height: 200px;
+    }
+
+    .btn--blog button {
+        width: 168px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* footer */
+
+    #rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 307px;
+        padding: 20px 80px;
+    }
+
+    .container--rodape {
+        height: 307px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .btn--link button {
+        width: 189px;
+        height: 40px;
+    }
+
+    .btn--link a {
+        font-size: 16px;
+    }
+    
+}
+
+
+
+/* responsividade descktop */
+
+@media (min-width: 426px) and (max-width:768px) {
+
+    
+    .text--banner {
+        width: 90%;
+        height: 180px;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .title--banner {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: 100px;
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .subTitle--banner {
+        width: 90%;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 50px 0px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pessoa {
+        width: 100px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    #head {
+        width: 100%;
+        padding: 0px 80px;
+        max-width: 1024px;
+        height: 100px;
+        position:static;
+        z-index: 0;
+        margin: auto;
+        background-color: #2E948A;
+    }
+    .container--head {
+        width: 100%;
+        max-width: 1024px;
+        height: 100px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    /* banner */
+
+    #banner--principal {
+        width: 100%;
+        padding: 0px 80px;
+        margin: auto;
+    }
+
+    .container--banner {
+        width: 100%;
+        max-width: 1024px;
+        height: 450px;
+        display: flex;
+    }
+
+    .text--banner {
+        height: 360px;
+    }
+
+    .title--banner {
+        width: 350px;
+        height: 200px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .subTitle--banner {
+        width: 350px;
+        height: 62px;
+        font-size: 24px;
+        line-height: 31px;
+        color: #555;
+        text-align: left;
+    }
+
+    .img--banner {
+        width: 300px;
+        height: 410px;
+    }
+
+
+    /* cursos */
+
+    .title--cursos {
+        font-size: 18px;
+    }
+
+    .subTitle--cursos {
+        color: #555;
+        font-size: 15px;
+        width: 250px;
+        height: 60px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .btn--cursos {
+        width: 180px;
+    }
+
+    .subTitle--cursos {
+        width: 200px;
+    }
+    
+    .img--curso {
+        width: 200px;
+        height: 200px;
+    }
+
+    .curso1,
+    .curso2,
+    .curso3 {
+        width: 230px;
+        margin: 0px 5px;
+    }
+
+    /* depoimentos */
+
+    #depoimento {
+        width: 100%;
+        height: 730px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .container--depoimentos {
+        width: 100%;
+        height: 730px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .title--depoimentos {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comentario {
+        width: 100%;
+    }
+
+    .depoimento1, 
+    .depoimento2 {
+        width: 300px;
+        position: static;
+        display: flex;
+        flex-direction: column;
+    }
+        
+    .depoimento1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text--pessoa {
+        width: 240px;
+    }
+    
+    .pessoa {
+        width: 60px;
+        margin-right: 10px;
+    }
+
+
+    /* blog */
+
+    .container--blog {
+        width: 100%;
+        max-width: 1440px;
+    }
+
+    .some--posts {
+        width: 100%;
+        max-width: 1440px;
+        height: 550px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .title--blog {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text--posts,
+    .posts {
+        width: 200px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .img--posts {
+        margin-bottom: 10px;
+        width:200px;
+        height: 133px;
+        background-color:#C4C4C4 ;
+    }
+
+    /* footer  */
+
+    .img {
+        width: 300px;
+    }
+
+    .btn--link button {
+        width: 200px;
+    }
+
+    .btn--link a {
+        font-size: 18px;
+    }
+    
+} 
+
+
