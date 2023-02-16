@@ -18,7 +18,7 @@
 
 - A empresa fictícia DINDIN, desejava uma plataforma de conteúdo sobre Educaçõa Financeira
 
-<img src="../img/projeto-finalizado/INICIO.png" width="200px">
+<img src="../Projeto dindin/img/projeto-finalizado/INICIO.png" alt="Inicio" width="200px">
 
 <br>
 
