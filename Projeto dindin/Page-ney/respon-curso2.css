@@ -46,11 +46,117 @@
         height: 60px;
     }
 
-    /* conteudo */
+    /* curso2 */
+
+    .page-curso {
+        height:700px;
+    }
 
 
+    .container {
+        width: 100%;
+        min-width: 320px;
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    #img-principal {
+        width: 200px;
+        height: 200px;
+    }
 
+    #titulo-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        min-width: 320px;
+        max-width: 768px;
+        height: 150px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #txt-principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+        min-width: 320px;
+        max-width: 768px;
+        height: 150px;
+    }
+
+    #page-curso2 {
+        width: 100%;
+        max-width:768px;
+        height: 100%;
+    }
+
+    .container--geral {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #container2,
+    #container3,
+    #container4 {
+        display: flex;
+        width: 100%;
+        height: 800px;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 0px;
+    }
+
+    #txt-paragrafo2 {
+        width:100%;
+        height: 400px;
+        max-width: 768px;
+        text-align: justify;
+    }
+
+    #titulo2 {
+        width: 100%;
+        height: 50px;
+        margin: 20px 0px;
+        font-size: 20px;
+    }
+
+    #txt-aula {
+        font-size: 14px;
+        width: 100%;
+        height: 300px;
+    }
+
+    #videos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        max-width: 768px;
+
+    }
+    iframe {
+        width:90%;
+        max-width: 768px;
+        min-width: 320px;
+        height: 200px;
+    }
 
 
 
@@ -90,6 +196,25 @@
 
 @media (min-width: 426px) and (max-width:768px) {
 
+    #titulo2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #container4, 
+    #container3,
+    #container2 {
+        height: 600px;
+    }
+
+    #txt-paragrafo2 {
+        height: 200px;
+    }
+
+    #txt-aula {
+        height: 150px;
+    }
+
 }
 
 
@@ -122,7 +247,85 @@
 
 
 
+    #page-curso2 {
+        width: 100%;
 
+    }
+
+    .container {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    iframe {
+        width:90%;
+        max-width: 768px;
+        min-width: 320px;
+        height: 250px;
+    }
+
+    #titulo-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        font-size:40px ;
+    }
+
+    #txt-principal {
+        width: 350px;
+        font-size:20px ;
+        height: 310px;
+    }
+
+
+    #img-principal {
+        width: 350px;
+    }
+
+    #titulo2 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #txt-aula {
+        font-size:14px;
+        width: 210px;
+        height: 210px;
+    }
+
+    #txt-paragrafo2 {
+        width: 200px;
+        
+    }
+
+    .container--geral {
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #container4, 
+    #container3,
+    #container2 {
+        width: 700px;
+        height: 400px;
+        
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0px 0px 0px;
+    }
+
+    
 
 
 
@@ -140,5 +343,14 @@
 
     .btn--link a {
         font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    iframe {
+        width:500px;
+        
+        
+        height: 300px;
     }
 }
