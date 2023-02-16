@@ -10,8 +10,7 @@
 
 ## 🎯 Sobre
 
-Esse prejeto foi proposto pela Gama Academy em formato de desafio,<br> 
-O objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês
+<p align="center">Esse prejeto foi proposto pela Gama Academy em formato de desafio, o objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês</p>
 
 <br>
 
