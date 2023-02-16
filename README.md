@@ -9,9 +9,11 @@
   <a href="#-Serviços">Serviços</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Autores">Autores</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
+
 <br>
+
 ## 🎯 Sobre
-<br>
+
 <p align="center">Esse prejeto foi proposto pela Gama Academy em formato de desafio, o objetivo do desafio é praticar todas as competências adquiridas ao longo do primeiro mês</p>
 
 <br>
