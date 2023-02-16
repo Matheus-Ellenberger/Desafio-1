@@ -127,13 +127,32 @@
 
 #page-curso2 {
     width: 100%;
-    max-width: 1440px;
+    /* retirado o max-width */
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 80px;
     background-color: #F7F7F7;
     display: block;
 }
+
+
+
+/*  */
+.container--geral {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*  */
+
+
+
+
 
 #container2 {
     width: 100%;
@@ -147,8 +166,7 @@
 }
 
 #container3,
-#container4,
-#container5 {
+#container4{
     width: 100%;
     max-width: 1440px;
     display: flex;
@@ -159,9 +177,8 @@
     padding-bottom: 75px;
 }
 
-#container5 {
+#container4 {
     border-bottom: 0;
-    padding-bottom: 75px;
 }
 
 
