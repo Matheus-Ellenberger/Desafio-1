@@ -94,6 +94,7 @@
     border: 1px solid #686868;
     box-sizing: border-box;
     outline: 0;
+    padding-left: 10px;
 }
 
 #msg {
@@ -104,6 +105,8 @@
     background: #FFFFFF;
     border: 1px solid #686868;
     outline: 0 ;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 #txt-contato {
