@@ -52,9 +52,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Feito por Matheus Ellenberger
 - <a href="https://github.com/Matheus-Ellenberger">GitHub</a>
-<br>
+
 Feito por Neylor Felipe
 - <a href="https://github.com/neylorfelipet3">GitHub</a>
-<br>
+
 Feito por Renan Bascheschi
 - <a href="https://github.com/renanbacheschi">GitHub</a>
