@@ -16,7 +16,7 @@
 
 ## 📷 Projeto
 
-- A empresa fictícia DINDIN, desejava uma plataforma de conteúdo sobre Educaçõa Financeira
+<p align="center">A empresa fictícia DINDIN, desejava uma plataforma de conteúdo sobre Educaçõa Financeira</p>
 
 <div display="flex">
 <img src="./projeto-finalizado/INICIO.png" alt="inicio" width="240px" height="400px">
@@ -32,18 +32,29 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- JavaScript
 - Git e GitHub
 
+<br>
+
+## 📍 site
+
+- aqui voce poderá ver o site completo: .... 
 <br>
 
 ## 🛠️ Serviços
 
 - <a href="https://github.com/Matheus-Ellenberger">GitHub</a> - Hospedagem
-- <a href="https://fontawesome.com/">Font Awesome</a> - Icones
+- <a href="https://fonts.google.com/">Google Fonts</a> - Fontes
 
 <br>
 
-## 🙋‍♂️ Autor
+## 🙋‍♂️ 🙋‍♂️ 🙋‍♂️ Autores
 
-Feito com ❤️ por Matheus Ellenberger
+Feito por Matheus Ellenberger
+- <a href="https://github.com/Matheus-Ellenberger">GitHub</a>
+<br>
+Feito por Neylor Felipe
+- <a href="https://github.com/neylorfelipet3">GitHub</a>
+<br>
+Feito por Renan Bascheschi
+- <a href="https://github.com/renanbacheschi">GitHub</a>
