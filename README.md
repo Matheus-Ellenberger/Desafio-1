@@ -19,10 +19,10 @@
 - A empresa fictícia DINDIN, desejava uma plataforma de conteúdo sobre Educaçõa Financeira
 
 <div display="flex">
-<img src="./projeto-finalizado/INICIO.png" alt="inicio" width="280px" height="400px">
-<img src="./projeto-finalizado/CURSOS.png" alt="inicio" width="280px" height="400px">
-<img src="./projeto-finalizado/BLOG.png" alt="inicio" width="280px" height="400px">
-<img src="./projeto-finalizado/CONTATO.png" alt="inicio" width="290px" height="200px">
+<img src="./projeto-finalizado/INICIO.png" alt="inicio" width="240px" height="400px">
+<img src="./projeto-finalizado/CURSOS.png" alt="inicio" width="240px" height="400px">
+<img src="./projeto-finalizado/BLOG.png" alt="inicio" width="240px" height="400px">
+<img src="./projeto-finalizado/CONTATO.png" alt="inicio" width="270px" height="200px">
 </div>
 
 <br>
