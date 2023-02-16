@@ -1,5 +1,7 @@
 <h1 align="center"> Projeto Institucional - Gama Academy - Desafio 1 </h1>
 
+<br>
+
 <p align="center">
   <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
