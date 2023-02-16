@@ -19,9 +19,8 @@
 <br>
 
 ## 📷 Projeto
-<br>
 <p align="center">A empresa fictícia DINDIN, desejava uma plataforma de conteúdo sobre Educaçõa Financeira</p>
-
+<br>
 <div display="flex">
 <img src="./projeto-finalizado/INICIO.png" alt="inicio" width="240px" height="400px">
 <img src="./projeto-finalizado/CURSOS.png" alt="inicio" width="240px" height="400px">
