@@ -47,16 +47,70 @@
     }
 
     /* conteudo */
+    .container--main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-1, .text-2 {
+        width: 80%;
+        font-size: 25px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .text-2 {
+        margin-top: 15px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 18px;
+    }
+
+    .img-ilustra {
+        width: 60%;
+        height: 60%;
+    }
+
+    .lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caixa {
+        width: 200px;
+        height: 100px;
+    }
+
+    .produto {
+        width: 200px;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .descript {
+        width: 200px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .caixa-completa {
+        width: 200px;
+        margin-top: 20px;
+    }
 
 
 
+    .container--grid {
+        width: 200px;
+        grid-template-columns: 1fr ;
+    }
 
-
-
-
-
-
-
+    section {
+        height: 2400px;
+    }
 
     /* footer */
 
@@ -90,6 +144,35 @@
 
 @media (min-width: 426px) and (max-width:768px) {
 
+    .caixa {
+        width: 400px;
+        height: 200px;
+    }
+
+    .produto {
+        width: 400px;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .descript {
+        width: 400px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .caixa-completa {
+        width: 400px;
+        margin-top: 20px;
+    }
+
+
+
+    .container--grid {
+        width: 400px;
+        grid-template-columns: 1fr ;
+    }
 }
 
 
@@ -120,10 +203,41 @@
     /* conteudo */
 
 
+    .caixa {
+        width: 720px;
+        height: 400px;
+    }
+
+    .produto {
+        margin-top: 10px;
+        width: 720px;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .descript {
+        width: 720px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .caixa-completa {
+        width: 720px;
+        margin-top: 20px;
+    }
 
 
 
+    .container--grid {
+        width: 720px;
+        grid-template-columns: 1fr ;
+    }
 
+
+    section {
+        height: 3300px;
+    }
 
 
 
@@ -140,5 +254,50 @@
 
     .btn--link a {
         font-size: 18px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .container--main {
+        padding-top: 100px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caixa {
+        width: 400px;
+        height: 200px;
+    }
+
+    .produto {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .descript {
+        width: 400px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .caixa-completa {
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .container--grid {
+        width: 900px;
+        margin: auto;
+    }
+
+    section {
+        height: 1600px;
+        margin: auto;
     }
 }

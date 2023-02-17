@@ -56,7 +56,98 @@
 
 
 
-/* seu codigo aqui no meio */
+/* adicionado uma tag main com essas proporções */
+
+main {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+
+
+.container--main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 512px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .lista {
+    list-style: none;
+    /* mudado o width para max-width: 512px; */
+    max-width: 512px;
+    height: 260px;
+  }
+  .text-1 {
+    text-transform: uppercase;
+
+    /* margin-bottom removido */
+    
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+  }
+  text-2 {
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  /* adicionado a tag section para dar um espaço entre o container--main e o container--grid */
+  section {
+    margin-top: 100px;
+    padding: 80px 0px;
+    background: #E5E5E5;
+  }
+
+
+
+  /* grid catalogo */
+  .container--grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1156px;
+    height: 1433px;
+
+
+    /* removido as margins: right, top, bottom */
+    /* adicionado uma tag margin: auto; para o conteudo centralizar */
+    
+    margin: auto;
+}
+.caixa-completa {
+    list-style-type: none;
+    /* removido a margin left */
+
+}
+.caixa {
+    width: 518px;
+    height: 259px;
+    background: #C4C4C4;
+}
+.produto {
+    font-family: "ubuntu";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34.47px;
+    color: #FF4081;
+    margin-bottom: 19px;
+}
+.descript {
+    font-family: "ubuntu";
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 19.53px;
+    width: 518px;
+}
 
 
 

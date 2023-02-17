@@ -113,6 +113,10 @@
     font-size: 27px;
     line-height: 31px;
 }
+.btn--banner a {
+    text-decoration: none;
+    color: #FF4081;
+}
 
 
 .img--banner {
@@ -200,6 +204,11 @@
     font-size: 20px;
     border: 0;
     cursor: pointer;
+}
+
+.btn--cursos a {
+    text-decoration: none;
+    color: #fff;
 }
 
 
