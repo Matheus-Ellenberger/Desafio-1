@@ -13,6 +13,7 @@
     padding: 0px 80px;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
     position: fixed;
+    top: 0;
     z-index: 999;
 }
 .container--head {
@@ -56,7 +57,166 @@
 
 
 
-/* seu codigo aqui no meio */
+.conteudo {
+    padding: 80px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .container--textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tituloh1 {
+    font-family: "ubuntu";
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57.45px;
+    color: #ff4081;
+  }
+  
+  .data {
+    font-family: "ubuntu";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20.68px;
+    color: #9d9d9d;
+    margin-bottom: 10%;
+  }
+  
+  .caixa--cinza {
+    width: 100%;
+    max-width: 1032px;
+    max-height: 465px;
+    height: 0;
+    padding-top: 45%;
+    background-color: #c4c4c4;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .textos {
+    width: 100%;
+    max-width: 1032px;
+    font-family: "ubuntu";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20.68px;
+  }
+  
+  
+  
+  .titulo--h2 {
+    color: #419488;
+    font-family: "ubuntu";
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 29.87px;
+  }
+  
+  /* CURSOS */
+  
+  #cursos {
+    width: 100%;
+    height: 730px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 80px;
+  }
+  
+  .container--cursos {
+    width: 1440px;
+    height: 730px; /*aumentar a altura*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .curso1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 344px;
+    height: 504px;
+  }
+  .curso2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 293px;
+    height: 504px;
+  }
+  .curso3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 304px;
+    height: 504px;
+  }
+  
+  .title--page-cursos {
+    color: #ff4081;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .subTitle--cursos {
+    color: #555;
+    font-size: 17px;
+    width: 293px;
+    height: 60px;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  .img--curso {
+    width: 248px;
+    height: 270px;
+  }
+  
+  .title--cursos {
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+    color: #ff4081;
+    font-weight: 700;
+  }
+  
+  .btn--cursos {
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+    background-color: #ff4081;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .btn--cursos a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
 
 
 
